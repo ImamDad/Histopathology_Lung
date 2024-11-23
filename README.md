@@ -19,7 +19,7 @@ WSI_Graph_Classification/
 │   ├── 02_similarity_matrix.py      # Script for cosine similarity and graph construction
 │   ├── 02-1-compute_sparse_similarity.py # Computes sparse similarity matrix
 │   ├── 03_deepwalk_embeddings.py    # Script for DeepWalk embedding generation
-│   ├── 04_gcn_model.py              # Defines the proposed GCN model
+│   ├── train_gcn.py                # Defines the proposed GCN model
 │   ├── 05_visualization.py          # Script for visualizing graph structure and results
 ├── compare_sota_models.py           # Main script to train and evaluate SOTA models
 ├── plotting.py                      # Script to plot model comparison results
@@ -81,7 +81,7 @@ Follow these steps to run the files in the correct sequence:
    - **Command**: `python src/03_deepwalk_embeddings.py`
 
 5. **Train and Evaluate the GCN Model**:
-   - Run `04_gcn_model.py` to train and evaluate the proposed GraphSAGE model.
+   - Run `train_gcn.py` to train and evaluate the proposed GraphSAGE model.
    - **Command**: `python src/04_gcn_model.py`
 
 6. **Compare with State-of-the-Art Models**:
@@ -105,7 +105,7 @@ Follow these steps to run the files in the correct sequence:
 - **`01_patch_processing.py`**: Extracts texture features (GLCM) from each patch.
 - **`02_similarity_matrix.py`**: Computes cosine similarity and constructs the weighted adjacency matrix.
 - **`03_deepwalk_embeddings.py`**: Generates DeepWalk embeddings to encode graph structure.
-- **`04_gcn_model.py`**: Defines the architecture of the proposed GCN model.
+- **`train_gcn.py`**: Defines the architecture of the proposed GCN model.
 - **`compare_sota_models.py`**: Trains and evaluates CNN, GraphSAGE, GAT, and the proposed GCN model.
 - **`05_visualization.py`**: Visualizes graph structure with classification labels.
 
