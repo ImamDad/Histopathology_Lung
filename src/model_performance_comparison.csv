@@ -1,3 +1,0 @@
-Dataset,Training Accuracy,Validation Accuracy,Training Loss,Validation Loss
-Lung Cancer,0.95,0.88,0.15,0.22
-Breast Cancer,0.92,0.89,0.18,0.21
